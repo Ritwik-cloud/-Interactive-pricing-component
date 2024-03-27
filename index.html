@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+
+  <main>
+
+
+<div class="card-head">
+  <h1>Simple, traffic-based pricing</h1> 
+  <h4>Sign-up for our 30-day trial. No credit card required. </h4> 
+
+</div>
+  
+
+
+    <div class="card">
+
+      <div class="card-row-1 row">
+        <p> 100K PAGEVIEWS</p>
+        <p> <span id="monthly-amount"> $<span id="amount"></span>.00 </span>   /month</p>
+      </div>
+      <div class="card-row-2 row">
+        <input type="range" name="" id="selector" min="0" max="100" value="0">
+      </div>
+      <div class="card-row-3 row">
+
+      <p>  Monthly Billing</p>
+      <label class="toggle-switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
+      
+       <p> Yearly Billing <span id="discount">25% discount</span></p>
+      </div>
+
+       <!-- <hr> -->
+
+      <div class="card-row-4 row">
+
+        <ul>
+          <li>  <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg></span>  Unlimited websites</li>
+          <li> <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg></span>  100% data ownership</li>
+          <li> <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg></span>  Email reports</li>
+
+        </ul>
+
+        <button id="trail-btn"> Start my trial</button>
+      </div>
+     
+  
+  
+  
+    
+     
+    
+  
+  
+  
+  
+  
+   
+    
+    
+     
+    </div>
+  
+   
+  </main>
+
+  
+
+
+
+
+
+
+  <script src="js/index.js"></script>
+</body>
+</html>
